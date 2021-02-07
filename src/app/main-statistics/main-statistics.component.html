@@ -1,0 +1,27 @@
+    <div class="row text-center">
+      <div class="col">
+        <div class="alert alert-info">
+          <b> 
+            <i class="fa fa-bar-chart"> </i>
+            Koronavirus boyınsha tolıq statistika
+           </b>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col">
+        <p class="text-secondary">
+         <i class="fa fa-clock-o"></i>
+         Qayta júklengen waqıtı: {{updateTime | date : 'medium'}} </p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col">
+        <h2> Jámi tastıyqlanǧan:</h2>
+        <h1 class="text-warning"> {{totalCases | number}} </h1>
+        <h2> Qaytıs bolǧan:</h2>
+        <h1 class="text-danger"> {{totalDeaths | number}}</h1>
+        <h2> Táwir bolǧan:</h2>
+        <h1 class="text-success"> {{totalRecovered | number}}</h1>
+      </div>
+    </div>
