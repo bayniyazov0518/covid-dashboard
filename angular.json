@@ -22,7 +22,7 @@
           "options": {
             "outputPath": "dist/covid-dashboard",
             "index": "src/index.html",
-            "main": "app.component.html",
+            "main": "main.md",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
